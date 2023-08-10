@@ -1,0 +1,175 @@
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-width: 95vw;
+    
+}
+
+
+h1{
+    color: #7d83b9;
+    color: white;
+    text-align: center;
+}
+
+
+/*>>>>>> SECAO DE TAREFAS <<<<<<<<<<<<<<<<<*/
+.listaTarefas{
+    width: 95%;
+    padding: 0 auto;
+    padding-top: 10px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 15px;
+}   
+
+.listaTarefas>div{
+    padding-left: 15px;
+    padding-bottom: 15px;
+    border: 1px solid black;
+    width: 95%;
+    background-color: #f0cd8d;
+    border-radius: 20px;
+    
+
+}
+.listaTarefas>div:hover{
+    border:4px inset rgb(53, 141, 228);
+}
+.listaTarefas>div:focus{
+    border:4px inset rgb(53, 141, 228);
+}
+
+
+
+
+
+@media screen and (min-width:481px) and (max-width:620px){
+    textarea.texto_tarefa{
+        font-size: 1.2rem;
+    }
+    .deleteButton{
+        height: 50px;
+        font-size: 1.1rem;
+        
+    }
+    .editButton{
+        height: 50px;
+        font-size: 1.1rem;
+    }
+    .finishButton{
+        height: 50px;
+        font-size: 1.1rem;
+    }
+    
+    .showButton{
+        height: 50px;
+        font-size: 1.1rem;
+    }
+}
+
+@media screen and (min-width:620px) and (max-width:720px){
+    textarea.texto_tarefa{
+        font-size: 1.5rem;
+    }
+    .deleteButton{
+        height: 55px;
+        font-size: 1.11rem;
+        
+    }
+    .editButton{
+        height: 55px;
+        font-size: 1.11rem;
+    }
+    .finishButton{
+        height: 55px;
+        font-size: 1.11rem;
+    }
+    
+    .showButton{
+        height: 50px;
+        font-size: 1.11rem;
+    }
+}
+
+@media screen and (min-width:721px) and (max-width:1024px){
+    form{
+        flex-direction: row;
+        justify-content: center;
+    }
+    form>input{
+        width: 70%;
+        height: 55px;
+        flex-shrink: 0;
+        font-size: 1.6rem;
+    }
+    form>button{
+        height: 62px;
+        width: 25%;
+        font-size: 1.6rem;
+    }
+
+    textarea.texto_tarefa{
+        font-size: 1.5rem;
+    }
+    .deleteButton{
+        height: 55px;
+        font-size: 1.11rem;
+        
+    }
+    .editButton{
+        height: 55px;
+        font-size: 1.11rem;
+    }
+    .finishButton{
+        height: 55px;
+        font-size: 1.11rem;
+    }
+    
+    .showButton{
+        height: 50px;
+        font-size: 1.11rem;
+    }
+}
+
+@media screen and (min-width:1200px){
+    form{
+        max-width: 1200px;
+        margin-left: auto;
+        margin-right: auto;
+        flex-direction: row;
+        justify-content: center;
+    }
+    form>input{
+        width: 70%;
+        flex-shrink: 0;
+    }
+    form>button{
+        width: 25%;
+    }
+    h1{
+        font-size: 3rem;
+    }
+    main{
+        max-width: 1200px;
+    }
+    form>input{
+        width: 70%;
+        height: 55px;
+        flex-shrink: 0;
+        font-size: 1.6rem;
+    }
+    form>button{
+        height: 62px;
+        width: 25%;
+        font-size: 1.6rem;
+    }
+
+    textarea.texto_tarefa{
+        font-size: 1.45rem;
+    }
+}

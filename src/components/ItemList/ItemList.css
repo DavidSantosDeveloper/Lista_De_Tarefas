@@ -1,0 +1,115 @@
+.item{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.item.completo{
+    background-color: lightgray;
+}
+.item.completo>p{
+    text-decoration: line-through;
+    
+}
+.item.completo>textarea{
+    text-decoration: line-through;
+    
+}
+
+textarea.texto_tarefa{
+    border: 0px solid black;
+    margin-bottom: 40px;
+    background-color: transparent;
+    font-size: 1.1rem;
+    /* min-height: max-content; */
+    height: 50px;
+    width: 97%;
+    resize: none;
+    overflow: hidden;
+
+
+    
+}
+section#secao_de_butoes{
+    display: flex;
+    flex-direction: row;
+    
+}
+
+
+
+.deleteButton{
+    height: 40px;
+    border-radius: 12px;
+    background-color: rgb(240, 96, 96);
+    font-weight: bold;
+    font-size: 1.05rem;
+    border: none;
+    
+    
+}
+.deleteButton:hover{
+    background-color: white;
+    cursor: pointer;
+    border: 4px inset rgb(246, 50, 50);
+    
+}
+.editButton{
+    margin-left: 3px;
+    height: 40px;
+    border-radius: 12px;
+    background-color: rgb(175, 188, 56);
+
+    border: none;
+    font-weight: bold;
+    font-size: 1.05rem;
+
+}
+.editButton:hover{
+    border:4px inset rgb(203, 220, 49);
+    background-color: white;
+    cursor: pointer;
+
+}
+.finishButton{
+    margin-left: 3px;
+    height: 40px;
+    border-radius: 12px;
+    background-color: rgb(33, 127, 41);
+
+    font-weight: bold;
+    font-size: 1.05rem;
+    border: none;
+}
+
+.finishButton:hover{
+    border:4px inset rgb(51, 197, 63);
+    background-color: white;
+    cursor: pointer;
+    
+}
+
+.showButton{
+    margin-left: auto;
+    margin-right: 15px;
+
+    height: 43px;
+    border-radius: 12px;
+    background-color: rgb(60, 132, 208);
+    background-color:transparent;
+    border: 0px ridge black;
+
+
+    font-weight: bold;
+    font-size: 1.1rem;
+    color: rgb(38, 38, 210);
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+
+
+.showButton:hover{
+    background-color: rgb(53, 141, 228);
+    color: white;
+}

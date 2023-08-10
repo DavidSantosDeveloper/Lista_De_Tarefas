@@ -1,0 +1,15 @@
+*{
+    
+}
+
+body{
+    background-color: #222435;
+    font-family: Roboto;
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+

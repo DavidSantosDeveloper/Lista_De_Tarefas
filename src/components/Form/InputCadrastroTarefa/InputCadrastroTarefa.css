@@ -1,0 +1,52 @@
+
+form{
+    /*BOX MODEL*/
+    width: 100%;
+    margin-bottom: 20px;
+    margin-top: 20px;
+
+    /*FLEX CONTAINER*/
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+
+}
+form>input{
+    /*BOX MODEL*/
+    height: 40px;
+    width: 95%;
+    border-radius: 15px;
+    background-color: white;
+    color: black;
+
+    /*FONT STYLE*/
+    font-size: 1.5rem;
+
+}
+
+form>input:focus{
+    background-color: white;
+    color: black;
+    outline-style: inset;
+    outline-width: 4px;
+    outline-color: rgb(53, 141, 228);
+}
+form>button{
+    /*BOX MODEL*/
+    height: 46px;
+    width: 95%;
+    border-radius: 15px;
+    /*FONT STYLE*/
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+button#adicionar_tarefa:hover{
+    background-color:#7d83b9;
+    color: black;
+}
+button#adicionar_tarefa:focus{
+    background-color:#7d83b9;
+    color: black;
+}
